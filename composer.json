@@ -6,7 +6,11 @@
             "email": "venhodal.00@spst.eu"
         }
     ],
-    "require": {},
+    "require": {
+        "jenssegers/blade": "^1.4",
+		"vlucas/phpdotenv": "^5.2",
+		"guzzlehttp/guzzle": "7.0"
+    },
     "repositories": [
         {"type": "composer", "url": "https://repo.packagist.com/luk3zz/"},
         {"packagist.org": false}
