@@ -15,6 +15,9 @@
     "autoload": {
 		"psr-4": {
 			"LuK3zz\\score\\": "."
-		}
+		},
+        "files": [
+            "Utils/helpers.php"
+        ]
 	}
 }
