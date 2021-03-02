@@ -1,8 +1,7 @@
 <?php
-namespace LuK3zz\Core;
+namespace LuK3zz\score;
 
-use Exception;
-use LuK3zz\Core\Response;
+use LuK3zz\score\Response;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Client;

@@ -1,5 +1,5 @@
 <?php
-namespace LuK3zz\Core;
+namespace LuK3zz\score;
 /**
  * Request class
  */
