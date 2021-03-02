@@ -1,10 +1,14 @@
 {
-    "name": "luk3zz/shoptet-addons-core",
+    "name": "luk3zz/score",
     "authors": [
         {
             "name": "LuK3zz",
             "email": "venhodal.00@spst.eu"
         }
     ],
-    "require": {}
+    "require": {},
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/luk3zz/"},
+        {"packagist.org": false}
+    ]
 }
