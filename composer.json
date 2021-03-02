@@ -12,8 +12,9 @@
 		"vlucas/phpdotenv": "^5.2",
 		"guzzlehttp/guzzle": "7.0"
     },
-    "repositories": [
-        {"type": "composer", "url": "https://repo.packagist.com/luk3zz/"},
-        {"packagist.org": false}
-    ]
+    "autoload": {
+		"psr-4": {
+			"LuK3zz\\score\\": "."
+		}
+	}
 }
