@@ -6,6 +6,7 @@
             "email": "venhodal.00@spst.eu"
         }
     ],
+    "license": "GPL-3.0-or-later",
     "require": {
         "jenssegers/blade": "^1.4",
 		"vlucas/phpdotenv": "^5.2",
