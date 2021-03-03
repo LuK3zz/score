@@ -21,6 +21,13 @@ class Http {
 
   private static function make(string $method, string $url, array $data = []) {
     $client = new \GuzzleHttp\Client();
+
+    if ($method === self::METHOD_POST) {
+      $data = [
+        'form_params' => $data
+      ];
+    }
+
     $response = $client->request($method, $url, $data);
 
     return new Response($response);
