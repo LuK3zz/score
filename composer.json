@@ -10,7 +10,8 @@
     "require": {
         "jenssegers/blade": "^1.4",
 		"vlucas/phpdotenv": "^5.2",
-		"guzzlehttp/guzzle": "7.0"
+		"guzzlehttp/guzzle": "7.0",
+        "paragonie/easydb": "2"
     },
     "autoload": {
 		"psr-4": {
