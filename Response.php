@@ -13,7 +13,7 @@ class Response {
   }
 
   public function json() {
-    return json_decode($this->body());
+    return json_decode($this->body(), true);
   }
 
   public function status() {
